@@ -22,6 +22,7 @@ if not game.is_complete():
     team = game.current_team()
 
     st.subheader(f"Team: {team['school']}")
+    st.image(team['logo'])
 
     available = game.available_categories()
 

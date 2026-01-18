@@ -22,3 +22,18 @@ logos_df = pd.DataFrame.from_records([dict(school = t.school,
                                            logo=t.logos[0] if t.logos else None) for t in logos_data])
 
 logos_df = logos_df.drop_duplicates()
+
+def override_school_name(df, old_name, new_name):
+    df.loc[df['school'] == old_name, 'school'] = new_name
+    print(f"Updated '{old_name}' to '{new_name}'")
+    return(df)
+
+override_school_name(logos_df, 'App State', 'Appalachian State')
+
+logos_df.to_csv("data/team_logos.csv", index=False)
+
+teams = pd.read_csv("data/fbs_teams_ranked.csv")
+
+teams = teams.merge(logos_df, on="school", how="left")
+
+teams.to_csv('data/fbs_teams_ranked.csv')

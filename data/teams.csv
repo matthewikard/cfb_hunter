@@ -2,7 +2,7 @@ id,school,abbreviation,nickname,mascot,full_name,classification,conference_id,co
 2005,Air Force,AFA,Air Force,Falcons,Air Force Falcons,fbs,17,Mountain West,,3713.0,Falcon Stadium,46692.0,False,Colorado Springs,CO,80840,US,"(38.9969701,-104.8436165)",2024.875732,America/Denver
 2006,Akron,AKR,Akron,Zips,Akron Zips,fbs,15,Mid-American,,3768.0,InfoCision Stadium,30000.0,False,Akron,OH,44399,US,"(41.0725534,-81.5083408)",321.2875061,America/New_York
 333,Alabama,ALA,Alabama,Crimson Tide,Alabama Crimson Tide,fbs,8,SEC,,3657.0,Bryant-Denny Stadium,101821.0,True,Tuscaloosa,AL,35487,US,"(33.2082752,-87.5503836)",70.05136108,America/Chicago
-2026,App State,APP,App State,Mountaineers,App State Mountaineers,fbs,37,Sun Belt,East,3792.0,Kidd Brewer Stadium,30000.0,False,Boone,NC,28608,US,"(36.2114267,-81.6854278)",991.3414307,America/New_York
+2026,Appalachian State,APP,App State,Mountaineers,App State Mountaineers,fbs,37,Sun Belt,East,3792.0,Kidd Brewer Stadium,30000.0,False,Boone,NC,28608,US,"(36.2114267,-81.6854278)",991.3414307,America/New_York
 12,Arizona,ARIZ,Arizona,Wildcats,Arizona Wildcats,fbs,4,Big 12,,3619.0,Arizona Stadium,50782.0,False,Tucson,AZ,85721,US,"(32.2288054,-110.9488677)",742.1530151,America/Phoenix
 9,Arizona State,ASU,Arizona St,Sun Devils,Arizona State Sun Devils,fbs,4,Big 12,,3947.0,Mountain America Stadium,65870.0,True,Tempe,AZ,85287,US,"(33.4264471,-111.9325005)",360.1569519,America/Phoenix
 8,Arkansas,ARK,Arkansas,Razorbacks,Arkansas Razorbacks,fbs,8,SEC,,3887.0,Razorback Stadium,80000.0,False,Fayetteville,AR,72702,US,"(36.0680662,-94.1789534)",403.7972412,America/Chicago

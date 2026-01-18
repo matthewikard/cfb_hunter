@@ -22,5 +22,3 @@ logos_df = pd.DataFrame.from_records([dict(school = t.school,
                                            logo=t.logos[0] if t.logos else None) for t in logos_data])
 
 logos_df = logos_df.drop_duplicates()
-
-print(logos_df.head())

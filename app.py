@@ -42,12 +42,12 @@ if not game.is_complete():
         if category in game.assignments:
             assigned_team = game.assignments[category]
             st.write(
-                    f"{category}:    "
+                    f"{category}: "
                     f"{assigned_team['school']} "
                     f"({assigned_team['metrics'][category]})"
                 )
         else:
-            st.write(f"{category}:   —")
+            st.write(f"{category}:")
 
 
     choice = st.radio(

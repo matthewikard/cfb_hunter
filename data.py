@@ -24,7 +24,8 @@ def load_teams_from_csv(path, categories):
                 "school": row["school"],
                 "metrics": {
                     c: int(row[c]) for c in categories
-                }
+                },
+                "logo": row["logo"]
             }
             teams.append(team)
 

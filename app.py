@@ -39,20 +39,15 @@ if not game.is_complete():
     st.header("Categories")
 
     for category in game.categories:
-        col_cat, col_team = st.columns([2, 3])
-
-        with col_cat:
-            st.write(category)
-
-        with col_team:
-            if category in game.assignments:
-                assigned_team = game.assignments[category]
-                st.write(
+        if category in game.assignments:
+            assigned_team = game.assignments[category]
+            st.write(
+                    f"{category}:    "
                     f"{assigned_team['school']} "
                     f"({assigned_team['metrics'][category]})"
                 )
-            else:
-                st.write("—")
+        else:
+            st.write(f"{category}:   —")
 
 
     choice = st.radio(

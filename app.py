@@ -21,8 +21,13 @@ game = st.session_state.game
 if not game.is_complete():
     team = game.current_team()
 
-    st.subheader(f"Team: {team['school']}")
-    st.image(team['logo'])
+    #st.subheader(f"Team: {team['school']}")
+    col_team, col_logo = st.columns([2, 3])
+
+    with col_team:
+        st.subheader(f"Team: {team['school']}")
+    with col_logo:
+        st.image(team['logo'], width=100)
 
     available = game.available_categories()
 

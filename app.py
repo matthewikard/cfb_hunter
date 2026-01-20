@@ -4,6 +4,18 @@ from data import teams, categories
 
 st.title("CFB Hunter")
 
+with st.expander("**How to Play**"):
+    st.write("Your goal is to minimize your score by assigning a random team to the best possible category. \n\n"
+    "Categories are as follows: \n\n"
+    "Smallest Venue - Smallest venue by capacity \n\n"
+    "Largest Venue - Largest venue by capacity \n\n"
+    "Elevation - Highest elevation of a team's campus \n\n"
+    "Wins - Most all-time wins \n\n"
+    "Losses - Most all-time losses \n\n"
+    "Enrollment - Largest current student enrollment \n\n"
+    "First Year Played - Oldest program by first year played \n\n"
+    "Top Receiver Yards (All Time) - Most career receiving yards by a single player")
+
 if "feedback" not in st.session_state:
     st.session_state.feedback = None
 
